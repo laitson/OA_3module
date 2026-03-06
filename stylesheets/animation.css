@@ -1,0 +1,427 @@
+@keyframes float1 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(40px, -30px);
+    }
+
+    50% {
+        transform: translate(-30px, 40px);
+    }
+
+    75% {
+        transform: translate(20px, -20px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes float2 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(-50px, 20px);
+    }
+
+    50% {
+        transform: translate(30px, 50px);
+    }
+
+    75% {
+        transform: translate(-20px, -40px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes float3 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(60px, 40px);
+    }
+
+    50% {
+        transform: translate(-40px, -50px);
+    }
+
+    75% {
+        transform: translate(30px, 20px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+/* позиции для 54 кружков */
+.dot-1 {
+    top: 5%;
+    left: 8%;
+    animation: float1 17s infinite ease-in-out;
+}
+
+.dot-2 {
+    top: 12%;
+    left: 22%;
+    animation: float2 19s infinite ease-in-out;
+}
+
+.dot-3 {
+    top: 8%;
+    left: 45%;
+    animation: float3 21s infinite ease-in-out;
+}
+
+.dot-4 {
+    top: 15%;
+    left: 68%;
+    animation: float1 23s infinite ease-in-out;
+}
+
+.dot-5 {
+    top: 10%;
+    left: 88%;
+    animation: float2 18s infinite ease-in-out;
+}
+
+.dot-6 {
+    top: 18%;
+    left: 95%;
+    animation: float3 22s infinite ease-in-out;
+}
+
+.dot-7 {
+    top: 25%;
+    left: 12%;
+    animation: float1 24s infinite ease-in-out;
+}
+
+.dot-8 {
+    top: 28%;
+    left: 32%;
+    animation: float2 20s infinite ease-in-out;
+}
+
+.dot-9 {
+    top: 22%;
+    left: 52%;
+    animation: float3 26s infinite ease-in-out;
+}
+
+.dot-10 {
+    top: 30%;
+    left: 72%;
+    animation: float1 19s infinite ease-in-out;
+}
+
+.dot-11 {
+    top: 26%;
+    left: 82%;
+    animation: float2 25s infinite ease-in-out;
+}
+
+.dot-12 {
+    top: 32%;
+    left: 92%;
+    animation: float3 21s infinite ease-in-out;
+}
+
+.dot-13 {
+    top: 38%;
+    left: 6%;
+    animation: float1 27s infinite ease-in-out;
+}
+
+.dot-14 {
+    top: 42%;
+    left: 18%;
+    animation: float2 22s infinite ease-in-out;
+}
+
+.dot-15 {
+    top: 35%;
+    left: 28%;
+    animation: float3 24s infinite ease-in-out;
+}
+
+.dot-16 {
+    top: 40%;
+    left: 42%;
+    animation: float1 20s infinite ease-in-out;
+}
+
+.dot-17 {
+    top: 45%;
+    left: 58%;
+    animation: float2 28s infinite ease-in-out;
+}
+
+.dot-18 {
+    top: 38%;
+    left: 78%;
+    animation: float3 23s infinite ease-in-out;
+}
+
+.dot-19 {
+    top: 48%;
+    left: 88%;
+    animation: float1 26s infinite ease-in-out;
+}
+
+.dot-20 {
+    top: 42%;
+    left: 96%;
+    animation: float2 21s infinite ease-in-out;
+}
+
+.dot-21 {
+    top: 52%;
+    left: 10%;
+    animation: float3 29s infinite ease-in-out;
+}
+
+.dot-22 {
+    top: 58%;
+    left: 24%;
+    animation: float1 22s infinite ease-in-out;
+}
+
+.dot-23 {
+    top: 55%;
+    left: 35%;
+    animation: float2 25s infinite ease-in-out;
+}
+
+.dot-24 {
+    top: 62%;
+    left: 48%;
+    animation: float3 27s infinite ease-in-out;
+}
+
+.dot-25 {
+    top: 50%;
+    left: 62%;
+    animation: float1 23s infinite ease-in-out;
+}
+
+.dot-26 {
+    top: 56%;
+    left: 75%;
+    animation: float2 30s infinite ease-in-out;
+}
+
+.dot-27 {
+    top: 65%;
+    left: 85%;
+    animation: float3 24s infinite ease-in-out;
+}
+
+.dot-28 {
+    top: 60%;
+    left: 94%;
+    animation: float1 28s infinite ease-in-out;
+}
+
+.dot-29 {
+    top: 70%;
+    left: 5%;
+    animation: float2 26s infinite ease-in-out;
+}
+
+.dot-30 {
+    top: 75%;
+    left: 15%;
+    animation: float3 21s infinite ease-in-out;
+}
+
+.dot-31 {
+    top: 68%;
+    left: 30%;
+    animation: float1 29s infinite ease-in-out;
+}
+
+.dot-32 {
+    top: 72%;
+    left: 40%;
+    animation: float2 23s infinite ease-in-out;
+}
+
+.dot-33 {
+    top: 78%;
+    left: 55%;
+    animation: float3 27s infinite ease-in-out;
+}
+
+.dot-34 {
+    top: 82%;
+    left: 68%;
+    animation: float1 24s infinite ease-in-out;
+}
+
+.dot-35 {
+    top: 76%;
+    left: 78%;
+    animation: float2 30s infinite ease-in-out;
+}
+
+.dot-36 {
+    top: 85%;
+    left: 90%;
+    animation: float3 22s infinite ease-in-out;
+}
+
+.dot-37 {
+    top: 88%;
+    left: 12%;
+    animation: float1 25s infinite ease-in-out;
+}
+
+.dot-38 {
+    top: 92%;
+    left: 25%;
+    animation: float2 28s infinite ease-in-out;
+}
+
+.dot-39 {
+    top: 86%;
+    left: 38%;
+    animation: float3 26s infinite ease-in-out;
+}
+
+.dot-40 {
+    top: 94%;
+    left: 52%;
+    animation: float1 21s infinite ease-in-out;
+}
+
+.dot-41 {
+    top: 90%;
+    left: 65%;
+    animation: float2 29s infinite ease-in-out;
+}
+
+.dot-42 {
+    top: 96%;
+    left: 78%;
+    animation: float3 23s infinite ease-in-out;
+}
+
+.dot-43 {
+    top: 88%;
+    left: 88%;
+    animation: float1 27s infinite ease-in-out;
+}
+
+.dot-44 {
+    top: 94%;
+    left: 96%;
+    animation: float2 24s infinite ease-in-out;
+}
+
+.dot-45 {
+    top: 45%;
+    left: 48%;
+    animation: float3 30s infinite ease-in-out;
+}
+
+.dot-46 {
+    top: 16%;
+    left: 38%;
+    animation: float1 22s infinite ease-in-out;
+}
+
+.dot-47 {
+    top: 34%;
+    left: 84%;
+    animation: float2 26s infinite ease-in-out;
+}
+
+.dot-48 {
+    top: 66%;
+    left: 20%;
+    animation: float3 25s infinite ease-in-out;
+}
+
+.dot-49 {
+    top: 80%;
+    left: 48%;
+    animation: float1 28s infinite ease-in-out;
+}
+
+.dot-50 {
+    top: 24%;
+    left: 96%;
+    animation: float2 23s infinite ease-in-out;
+}
+
+.dot-51 {
+    top: 52%;
+    left: 80%;
+    animation: float3 27s infinite ease-in-out;
+}
+
+.dot-52 {
+    top: 8%;
+    left: 75%;
+    animation: float1 29s infinite ease-in-out;
+}
+
+.dot-53 {
+    top: 70%;
+    left: 70%;
+    animation: float2 24s infinite ease-in-out;
+}
+
+.dot-54 {
+    top: 42%;
+    left: 8%;
+    animation: float3 26s infinite ease-in-out;
+}
+
+/* буквы*/
+.letter-1 {
+    top: 20%;
+    left: 60%;
+    animation: float3 26s infinite ease-in-out;
+}
+
+.letter-2 {
+    top: 70%;
+    left: 35%;
+    animation: float1 28s infinite ease-in-out;
+}
+
+.letter-3 {
+    top: 50%;
+    left: 85%;
+    animation: float2 24s infinite ease-in-out;
+}
+
+.letter-4 {
+    top: 30%;
+    left: 20%;
+    animation: float1 30s infinite ease-in-out;
+}
+
+.letter-5 {
+    top: 60%;
+    left: 70%;
+    animation: float2 32s infinite ease-in-out;
+}
+
+.letter-6 {
+    top: 80%;
+    left: 40%;
+    animation: float3 34s infinite ease-in-out;
+}

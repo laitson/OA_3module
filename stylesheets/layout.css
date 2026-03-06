@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+body {
+background-color: #2E2D2B;
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+}
+/* заголовок */
+.title {
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background-color: #2E2D2B;
+    width: 100vw;
+    height: 16vh;
+    margin: 1%;
+}
+.title-text {
+    font-family: 'Bank_Gothic', sans-serif;
+    color: #e9e9e9;
+    font-weight: 500;
+    font-size: 120px;
+    text-align: center;
+    line-height: 0.7;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 0;
+    padding: 0;
+}
+/* контейнер для всех плавающих элементов */
+
+.floating-elements {
+    position: absolute;
+    width: 98%;
+    height: 56vh;
+    overflow: hidden;
+    z-index: -1;
+}
+
+/* кружочки */
+.dot {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: #F44336;
+    border-radius: 50%;
+}
+
+/* буквы */
+.letter {
+    position: absolute;
+    font-family: 'Bank_Gothic', sans-serif;
+    font-size: 120px;
+    color: #e9e9e9;
+    font-weight: 500;
+}

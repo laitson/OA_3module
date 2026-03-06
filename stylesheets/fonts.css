@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Bank_Gothic';
+    src: url('../fonts/BankGothicRUSBYLYAJKA-Medium.woff') format('woff'),
+        url('../fonts/Bank_Gothic_Medium(RUS BY LYAJKA)_0.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bank_Gothic';
+    src: url('../fonts/ofont.ru_BankGothic RUSS.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
