@@ -63,7 +63,9 @@
         transform: translate(0, 0);
     }
 }
-
+.dot {
+    transition: top 6s ease-out, left 6s ease-out;
+}
 /* позиции для 54 кружков */
 .dot-1 {
     top: 5%;
@@ -424,4 +426,77 @@
     top: 80%;
     left: 40%;
     animation: float3 34s infinite ease-in-out;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.flip-card {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.flip-card:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.flip-card:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.flip-card:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.flip-card:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.flip-card:nth-child(5) {
+    animation-delay: 0.5s;
+}
+@keyframes scrollText {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.scrolling {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.scrolling-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scrollText 15s linear infinite;
+}
+
+/* Анимация исчезновения кружков */
+.disappear {
+    animation: disappear 0.3s ease-out forwards;
+}
+
+@keyframes disappear {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(0);
+    }
 }
