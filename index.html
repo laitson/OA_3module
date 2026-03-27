@@ -3,169 +3,134 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>oooaaa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>ООО ААА</title>
     <link rel="stylesheet" href="stylesheets/style.css">
-    <link href="../images/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
 </head>
 
 <body>
-<!-- заголовок -->
-<div class="title">
-    <div class="title-text">инструкция по обращению
-    со страхом</div>
-</div>
-<div class="floating-elements">
-    <!-- кружки -->
-<div class="dot dot-1"></div>
-<div class="dot dot-2"></div>
-<div class="dot dot-3"></div>
-<div class="dot dot-4"></div>
-<div class="dot dot-5"></div>
-<div class="dot dot-6"></div>
-<div class="dot dot-7"></div>
-<div class="dot dot-8"></div>
-<div class="dot dot-9"></div>
-<div class="dot dot-10"></div>
-<div class="dot dot-11"></div>
-<div class="dot dot-12"></div>
-<div class="dot dot-13"></div>
-<div class="dot dot-14"></div>
-<div class="dot dot-15"></div>
-<div class="dot dot-16"></div>
-<div class="dot dot-17"></div>
-<div class="dot dot-18"></div>
-<div class="dot dot-19"></div>
-<div class="dot dot-20"></div>
-<div class="dot dot-21"></div>
-<div class="dot dot-22"></div>
-<div class="dot dot-23"></div>
-<div class="dot dot-24"></div>
-<div class="dot dot-25"></div>
-<div class="dot dot-26"></div>
-<div class="dot dot-27"></div>
-<div class="dot dot-28"></div>
-<div class="dot dot-29"></div>
-<div class="dot dot-30"></div>
-<div class="dot dot-31"></div>
-<div class="dot dot-32"></div>
-<div class="dot dot-33"></div>
-<div class="dot dot-34"></div>
-<div class="dot dot-35"></div>
-<div class="dot dot-36"></div>
-<div class="dot dot-37"></div>
-<div class="dot dot-38"></div>
-<div class="dot dot-39"></div>
-<div class="dot dot-40"></div>
-<div class="dot dot-41"></div>
-<div class="dot dot-42"></div>
-<div class="dot dot-43"></div>
-<div class="dot dot-44"></div>
-<div class="dot dot-45"></div>
-<div class="dot dot-46"></div>
-<div class="dot dot-47"></div>
-<div class="dot dot-48"></div>
-<div class="dot dot-49"></div>
-<div class="dot dot-50"></div>
-<div class="dot dot-51"></div>
-<div class="dot dot-52"></div>
-<div class="dot dot-53"></div>
-<div class="dot dot-54"></div>
-
-<!-- буквы -->
-<div class="letter letter-1">A</div>
-<div class="letter letter-2">A</div>
-<div class="letter letter-3">A</div>
-<div class="letter letter-4">O</div>
-<div class="letter letter-5">O</div>
-<div class="letter letter-6">O</div>
-</div>
-<!-- кнопки фильтров -->
-<div class="buttons-container">
-    <div class="button">бей</div>
-    <div class="button">беги</div>
-    <div class="button">замри</div>
-</div>
-<div class="filter-description">выберите фильтр в зависимости от вашей реакции испуга</div>
-<!-- техника 54321 -->
-<div class="technic">
-    <div class="technic-text">техника «54321»</div>
-</div>
-<!-- КАРТОЧКИ 54321 -->
-<div class="flip-cards-container">
-    <!-- карточка 5 -->
-    <div class="flip-card">
-        <div class="flip-card-inner">
-            <div class="flip-card-front">
-            <span class="flip-num">А</span>
+    <div class="poster-root">
+        <!-- заголовок-->
+            <div class="poster-title">
+                <h1 class="poster-title-text title-animate">
+                    инструкция по обращению <br>со страхом
+                </h1>
             </div>
-            <div class="flip-card-back">
-            <p class="flip-back-text">5 вещей,<br> которые вы <br>прямо сейчас<br>видите вокруг</p>
+
+            <!--область плавающих элементов-->
+                <div class="floating-area" id="floatingArea"></div>
+
+                <!-- кнопки фильтров -->
+                <div class="filter-bar">
+                    <button class="filter-btn" data-mode="бей">бей</button>
+                    <button class="filter-btn" data-mode="беги">беги</button>
+                    <button class="filter-btn" data-mode="замри">замри</button>
+                </div>
+                <div class="filter-description" id="filterDescription">
+                    выберите фильтр в зависимости от вашей реакции испуга
+                </div>
+
+                <!-- техеика 54321 -->
+                <div class="poster-section technic-section">
+                    <h2 class="poster-title-text technic-animate">техника «54321»</h2>
+                </div>
+
+                <!-- карточки -->
+                <div class="flip-cards-area" id="flipCardsArea"></div>
+                <div class="cards-hint">наведите на карточку и назовите</div>
+
+                <!-- бегущие оооо-->
+                <div class="scrolling-row" aria-hidden="true">
+                    <span class="scrolling-text" id="scrollingText">
+                        ОООООООООООООООООООООООООООООООООООООООО
+                    </span>
+                </div>
+    </div>
+    <!-- дыхание 478 -->
+    <div class="breathing-section">
+        <h2 class="breathing-title">дыхание «4-7-8»</h2>
+        <button class="breathing-start-btn">начать</button>
+        <div class="breathing-blocks">
+            <!-- Блок вдохни -->
+            <div class="breath-block" data-phase="inhale">
+                <div class="eye-svg" data-eye="inhale"></div>
+                <span class="breath-label">вдохни</span>
+                <div class="timer-dial">
+                    <svg viewBox="0 0 100 100" class="dial-svg">
+                        <circle cx="50" cy="50" r="47" fill="#2e2d2b" stroke="#e9e9e9" stroke-width="1.5" />
+                        <g class="dial-hand" transform="rotate(0, 50, 50)">
+                            <line x1="50" y1="50" x2="50" y2="10" stroke="#e9e9e9" stroke-width="3.5"
+                                stroke-linecap="round" />
+                        </g>
+                        <circle cx="50" cy="50" r="3" fill="#e9e9e9" />
+                    </svg>
+                    <div class="timer-seconds">00</div>
+                </div>
+            </div>
+
+            <!-- Блок задержи дыхание-->
+            <div class="breath-block" data-phase="hold">
+                <div class="eye-svg" data-eye="hold"></div>
+                <span class="breath-label">задержи дыхание</span>
+                <div class="timer-dial">
+                    <svg viewBox="0 0 100 100" class="dial-svg">
+                        <circle cx="50" cy="50" r="47" fill="#2e2d2b" stroke="#e9e9e9" stroke-width="1.5" />
+                        <g class="dial-hand" transform="rotate(0, 50, 50)">
+                            <line x1="50" y1="50" x2="50" y2="10" stroke="#e9e9e9" stroke-width="3.5"
+                                stroke-linecap="round" />
+                        </g>
+                        <circle cx="50" cy="50" r="3" fill="#e9e9e9" />
+                    </svg>
+                    <div class="timer-seconds">00</div>
+                </div>
+            </div>
+
+            <!-- Блок выдыхай -->
+            <div class="breath-block" data-phase="exhale">
+                <div class="eye-svg" data-eye="exhale"></div>
+                <span class="breath-label">выдыхай</span>
+                <div class="timer-dial">
+                    <svg viewBox="0 0 100 100" class="dial-svg">
+                        <circle cx="50" cy="50" r="47" fill="#2e2d2b" stroke="#e9e9e9" stroke-width="1.5" />
+                        <g class="dial-hand" transform="rotate(0, 50, 50)">
+                            <line x1="50" y1="50" x2="50" y2="10" stroke="#e9e9e9" stroke-width="3.5"
+                                stroke-linecap="round" />
+                        </g>
+                        <circle cx="50" cy="50" r="3" fill="#e9e9e9" />
+                    </svg>
+                    <div class="timer-seconds">00</div>
+                </div>
             </div>
         </div>
     </div>
-
-    <!-- карточка 4 -->
-    <div class="flip-card">
-        <div class="flip-card-inner">
-            <div class="flip-card-front">
-            <span class="flip-num">А</span>
-            </div>
-            <div class="flip-card-back">
-            <p class="flip-back-text">4 вещи, <br>которые вы можете <br>прямо сейчас потрогать</p>
-            </div>
+    <!-- бегущие аааа -->
+    <div class="scrolling-row secondary" aria-hidden="true">
+        <span class="scrolling-text secondary-text" id="scrollingTextSecondary">
+            ААААААААААААААААААААААААААААААААААААААААААААА
+        </span>
+    </div>
+    <!-- метаболы -->
+    <div class="metaballs-section">
+        <h2 class="metaballs-title">техника «стоп-катастровизация»</h2>
+        <div class="metaballs-container">
+            <canvas id="metaballsCanvas"></canvas>
         </div>
+        <div class="metaballs-hint">шары сливаются, двигайте мышью</div>
+    </div>
+    <!-- нижние бегущие ооооо -->
+    <div class="scrolling-row3" aria-hidden="true">
+        <span class="scrolling-text3" id="scrollingText">
+            ОООООООООООООООООООООООООООООООООООООООО
+        </span>
+    </div>
+    </div>
+    <!-- футер -->
+    <div class="footer">
+        <h2 class="footer-title">климова анастасия группа бп25дз12 </h2>
     </div>
 
-    <!-- карточка 3 -->
-    <div class="flip-card">
-        <div class="flip-card-inner">
-            <div class="flip-card-front">
-            <span class="flip-num">А</span>
-            </div>
-            <div class="flip-card-back">
-            <p class="flip-back-text">3 звука, <br>которые вы<br>прямо сейчас слышите</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- карточка 2 -->
-    <div class="flip-card">
-        <div class="flip-card-inner">
-            <div class="flip-card-front">
-            <span class="flip-num">А</span>
-            </div>
-            <div class="flip-card-back">
-            <p class="flip-back-text">2 запаха, <br>которые вы можете прямо сейчас почувствовать</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- карточка 1 -->
-    <div class="flip-card">
-        <div class="flip-card-inner">
-            <div class="flip-card-front">
-            <span class="flip-num">А</span>
-            </div>
-            <div class="flip-card-back">
-            <p class="flip-back-text">1 вкус, <br>который вы<br>прямо сейчас ощущаете</p>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="cards-description">переверните карточки и назовите</div>
-<div class="scrolling">
-    <div class="scrolling-text">OOOOOOOOOOO</div>
-</div>
-<!-- техника дыхания -->
-<div class="breathing-container">
-    <div class="breathing-text">техника «54321»</div>
-    <div class="button">бей</div>
-    <div class="button">беги</div>
-    <div class="button">замри</div>
-</div>
-<div class="filter-description">выберите фильтр в зависимости от вашей реакции испуга</div>
-
-<script src="js/index.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
